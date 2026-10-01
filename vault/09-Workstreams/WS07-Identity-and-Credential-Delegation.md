@@ -1,0 +1,67 @@
+---
+doc_id: ws.07
+title: WS07: Agent Identity and Credential Delegation
+status: scaffold
+authority: informative
+audience:
+  - human
+  - ceo-agent
+access_scope:
+  - workstream
+sensitivity: internal
+owner: human-principal
+version: 0.1.0
+created: 2026-10-01
+last_reviewed:
+review_required: true
+supersedes:
+---
+
+# WS07: Agent Identity and Credential Delegation
+
+**Status:** scaffold. Research not started. Work arrives as separate commits (see [[Template-Workstream-Commit]]).
+
+## Scope
+
+Specify workload identity, the credential broker, and short-lived scoped access.
+
+## Key questions
+
+1. How is each agent and worker identified and attested?
+2. How are credentials scoped to a task and expired?
+3. How is approval above least-needed requested and recorded?
+4. How is break-glass access separated and alerted?
+5. How are credentials keyed to avoid collision between deployments?
+
+## Option families to compare
+
+[RECOMMENDATION: compare all credible options. Do not select.]
+
+- Workload identity standards
+- Token-exchange and delegation standards
+- Dynamic secrets
+- Hardware-backed or offline root keys
+
+## Seed sources
+
+- [[SRC-rfc6749-oauth2]]
+- [[SRC-spiffe-overview]]
+- [[SRC-nist-sp800-53]]
+
+These are starting points only. Each workstream must extend the registry ([[Source-Registry]]) with parsed records and archive manifests ([[Citation-Rules-Human]]) before any claim is marked FACT.
+
+## Required outputs
+
+- Identity model comparison
+- Broker requirements
+- Approval flow options
+
+## Acceptance criteria for this workstream
+
+- Every FACT carries a wikilink to a parsed source record whose archive manifest exists.
+- All credible options are listed with advantages, drawbacks and failure modes.
+- Decisions required from the Human or governance chain are listed in [[Open-Questions]] and not made here.
+- Provider names appear only as evidence inside source records and never in architecture text.
+- Related vault notes and AI chunks are updated together ([[AI-Corpus-Overview]]).
+
+Back to [[Workstream-Index]].

@@ -1,0 +1,65 @@
+# AI Enablement Documentation
+
+> Provider-neutral documentation for an AI enablement system: architecture layers, governance and authority, role-scoped memory, credential brokering, execution and replacement, visibility, resilience and cost control. Documents only. The Human principal is the highest authority. Version 0.1.0 (scaffold). Research is incomplete and every record states its parse status.
+
+Notes: the vault is authoritative and the AI corpus is a projection of it. Claims carry labels (FACT, INFERENCE, RECOMMENDATION, UNRESOLVED, USER DECISION, USER REQUIREMENT, UNVERIFIED). Treat UNVERIFIED and RECOMMENDATION text as non-factual.
+
+## Start
+
+- [Home](vault/00-Home.md): map of content
+- [Principles](vault/01-Foundations/Principles.md): foundation rules
+- [Claim labels](vault/01-Foundations/Claim-Labels.md): how to read claim status
+
+## Governance
+
+- [Authority model](vault/02-Governance/Authority-Model.md)
+- [Human-CEO compact](vault/02-Governance/Human-CEO-Compact.md)
+- [Override lifecycle](vault/02-Governance/Override-Lifecycle.md)
+- [Change authority](vault/02-Governance/Change-Authority.md)
+- [Approval, notification and escalation](vault/02-Governance/Approval-Notification-Escalation.md)
+- [Emergency authority](vault/02-Governance/Emergency-Authority.md)
+- [Emergency materiality](vault/02-Governance/Emergency-Materiality.md)
+
+## Agent behavior
+
+- [Operational roles](vault/03-Agent-Behavior/Operational-Roles.md)
+- [Accountability records](vault/03-Agent-Behavior/Accountability-Records.md)
+- [Respect without flattery](vault/03-Agent-Behavior/Respect-Without-Flattery.md)
+- [Reward and incentives](vault/03-Agent-Behavior/Reward-and-Incentives.md)
+
+## Architecture
+
+- [Layer taxonomy](vault/04-Architecture/Layer-Taxonomy.md)
+- [Role-scoped memory](vault/04-Architecture/Role-Scoped-Memory.md)
+- [Credential broker](vault/04-Architecture/Credential-Broker.md)
+- [Execution and replacement](vault/04-Architecture/Execution-and-Replacement.md)
+- [Data classes](vault/04-Architecture/Data-Classes.md)
+- [Tool gateway](vault/04-Architecture/Tool-Gateway.md)
+
+## Visibility and resource governance
+
+- [Collaboration record](vault/05-Visibility/Collaboration-Record.md)
+- [Observability versus audit](vault/05-Visibility/Observability-vs-Audit.md)
+- [Cost governance](vault/06-Resource-Governance/Cost-Governance.md)
+- [Resource acquisition policy](vault/06-Resource-Governance/Resource-Acquisition-Policy.md)
+
+## Research and citations
+
+- [Workstream index](vault/09-Workstreams/Workstream-Index.md)
+- [Source registry](sources/Source-Registry.md)
+- [Citation rules](vault/08-Citations/Citation-Rules-Human.md)
+- [Requirements register](registers/Requirements-Register.md)
+- [Decisions register](registers/Decisions-Register.md)
+- [Open questions](registers/Open-Questions.md)
+
+## AI corpus
+
+- [Corpus overview](ai-corpus/AI-Corpus-Overview.md)
+- [Chunk schema](ai-corpus/Chunk-Schema.md)
+- [Retrieval rules](ai-corpus/Retrieval-Rules.md)
+- [Chunk index](ai-corpus/Chunk-Index.md)
+
+## Optional
+
+- [Glossary](vault/11-Glossary/Glossary.md)
+- [Executive reading path](vault/10-Reading-Paths/Executive-Reading-Path.md)
